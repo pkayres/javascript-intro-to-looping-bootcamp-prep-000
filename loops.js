@@ -18,7 +18,8 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 function doWhileLoop(array){
-  do array.length > 0 && maybeTrue();
+  do {
+    array.length > 0 && maybeTrue();}
   while (maybeTrue());
   return (array)
 }
