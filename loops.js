@@ -22,7 +22,7 @@ function doWhileLoop(array){
     array.length > 0 && maybeTrue();}
   while 
     (maybeTrue());
-  return (array)
+  
 }
 
 
